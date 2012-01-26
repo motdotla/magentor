@@ -1,4 +1,4 @@
-module Magento
+module Magentor
   # http://www.magentocommerce.com/wiki/doc/webservices-api/api/directory_country
   class Country < Base
     class << self
@@ -27,7 +27,7 @@ module Magento
     end
     
     def regions
-      Magento::Region.find_by_country(self.iso2_code)
+      Magentor::Region.find_by_country(self.iso2_code)
     end
   end
 end

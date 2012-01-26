@@ -1,4 +1,4 @@
-module Magento
+module Magentor
   class Connection 
     attr_accessor :session, :config, :logger
 
@@ -45,7 +45,7 @@ module Magento
           connect!
           retry
         end
-        raise Magento::ApiError, "#{e.faultCode} -> #{e.faultString}"
+        raise Magentor::ApiError, "#{e.faultCode} -> #{e.faultString}"
       end
 
       def call_with_caching(method = nil, *args)

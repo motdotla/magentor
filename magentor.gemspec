@@ -44,6 +44,7 @@ Gem::Specification.new do |s|
      "lib/magentor/product_type.rb",
      "lib/magentor/region.rb",
      "lib/magentor/shipment.rb",
+     "lib/magentor/version.rb",
      "lib/magentor.rb",
      "magentor.gemspec"
   ]
